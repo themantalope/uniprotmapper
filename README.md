@@ -3,7 +3,6 @@
 A little package for running mapping requests through UniProt's online
 API.
 
-***
 ##installation
 Download the .zip to your favorite directory on your local machine, `cd`
 there and run the command:
