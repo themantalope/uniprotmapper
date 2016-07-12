@@ -37,7 +37,9 @@ class Mapper(object):
 
     @params.setter
     def params(self, package_params):
-        if not isinstance(package_params, dict):
+        if package_params is None:
+            self._package = {}
+        elif not isinstance(package_params, dict):
             raise TypeError("Params must be a dictionary!")
         else:
             self._package = package_params
@@ -70,7 +72,7 @@ class Mapper(object):
             self.params["query"] = " ".join(self.params["query"])
         elif isinstance(self.params["query"], np.ndarray):
             self.params["query"] = " ".join(self.params["query"].tolist())
-        elif not isinstance(self.params["query"], str):
+        elif not isinstance(self.params["query"], basestring):
             raise TypeError("uniprotmapper.Mapper.params['query'] must be either a string, list, or numpy array!")
 
     def get_data(self, **kwargs):
