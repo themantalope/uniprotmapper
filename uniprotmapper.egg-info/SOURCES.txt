@@ -1,3 +1,5 @@
+MANIFEST.in
+README.md
 setup.py
 uniprotmapper/__init__.py
 uniprotmapper/mapper.py
