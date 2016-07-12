@@ -17,7 +17,6 @@ Alternatively, one can:
 ```
 $ pip install uniprotmapper
 ```
-***
 ##example
 Here is an example:
 

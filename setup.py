@@ -1,10 +1,15 @@
 from setuptools import setup
-
+f=open("README.md", "r")
 setup(
-    author="Matthew Antalek",
+    author="Matt Antalek Jr",
     name="uniprotmapper",
     packages=["uniprotmapper"],
     license="MIT",
     author_email="matthew.antalek@northwestern.edu",
-    version="0.1dev"
+    version="0.1dev",
+    url="https://github.com/themantalope/uniprotmapper",
+    description="A little package for running mapping requests through UniProt's online API.",
+    long_description=f.read(),
+    classifiers=["Topic :: Scientific/Engineering :: Bio-Informatics"]
 )
+f.close()
