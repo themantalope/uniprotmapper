@@ -8,7 +8,7 @@ setup(
     packages=["uniprotmapper"],
     license="MIT",
     author_email="matthew.antalek@northwestern.edu",
-    version="0.0.4dev",
+    version="0.3dev0",
     url="https://github.com/themantalope/uniprotmapper",
     description="A little package for running mapping requests through UniProt's online API.",
     long_description=text,

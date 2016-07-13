@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: uniprotmapper
-Version: 0.0.4.dev0
+Version: 0.3.dev0
 Summary: A little package for running mapping requests through UniProt's online API.
 Home-page: https://github.com/themantalope/uniprotmapper
 Author: Matt Antalek Jr
